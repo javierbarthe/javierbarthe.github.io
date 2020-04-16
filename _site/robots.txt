@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: http://192.168.56.8:4000/sitemap.xml

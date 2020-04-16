@@ -1,0 +1,54 @@
+I"
+<div class="card categories">
+    <!-- top-category -->
+    <div class="card-header d-flex justify-content-between hide-border-bottom" id="h_DATA">
+      <span>
+      
+        <i class="far fa-folder-open fa-fw"></i>
+      
+        <a href="/categories/data/" class="ml-1 mr-2">DATA</a>
+        <!-- content count -->
+        
+        <span class="text-muted small font-weight-light">
+        
+          1
+          category,
+        
+          1
+          post
+        </span>
+      </span>
+
+      <!-- arrow -->
+      <a href="#l_DATA" data-toggle="collapse" aria-expanded="true" class="category-trigger hide-border-bottom">
+        
+        <i class="fas fa-fw fa-angle-down"></i>
+        
+      </a>
+
+    </div> <!-- .card-header -->
+
+    <!-- Sub-categories -->
+    
+    <div id="l_DATA" class="collapse show" aria-expanded="true">
+      <ul class="list-group">
+        
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+          <a href="/categories/architecture/" class="ml-1 mr-2">ARCHITECTURE</a>
+          
+          <span class="text-muted small font-weight-light">1
+            post
+          </span>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </div>
+<p><!-- .card --></p>
+
+<script src="/assets/js/dist/category-collapse.min.js" async=""></script>
+
+:ET
