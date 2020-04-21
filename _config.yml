@@ -50,7 +50,7 @@ timezone: America/Argentina/Buenos_Aires
 
 google_analytics:
   # Fill with your Google Analytics ID
-  id: ''
+  id: 'G-1BC5HT2322'
   # The Google Analytics pageviews switch.
 
   pv:
