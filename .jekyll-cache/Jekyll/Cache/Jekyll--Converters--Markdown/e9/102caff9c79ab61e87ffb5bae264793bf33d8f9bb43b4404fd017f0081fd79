@@ -1,4 +1,4 @@
-I"
+I"<
 <div class="card categories">
     <!-- top-category -->
     <div class="card-header d-flex justify-content-between hide-border-bottom" id="h_DATA">
@@ -11,11 +11,11 @@
         
         <span class="text-muted small font-weight-light">
         
-          1
-          category,
+          2
+          categories,
         
-          1
-          post
+          2
+          posts
         </span>
       </span>
 
@@ -36,6 +36,15 @@
         <li class="list-group-item">
           <i class="far fa-folder fa-fw"></i>
           <a href="/categories/architecture/" class="ml-1 mr-2">ARCHITECTURE</a>
+          
+          <span class="text-muted small font-weight-light">1
+            post
+          </span>
+        </li>
+        
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+          <a href="/categories/platform/" class="ml-1 mr-2">PLATFORM</a>
           
           <span class="text-muted small font-weight-light">1
             post

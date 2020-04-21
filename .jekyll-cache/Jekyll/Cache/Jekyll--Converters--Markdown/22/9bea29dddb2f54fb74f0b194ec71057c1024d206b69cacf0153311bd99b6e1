@@ -1,0 +1,129 @@
+I"�<p>It is very interesting how database landscape and infraestructure associated to them can turn into caos.</p>
+
+<p>Every year/quarter senior management estimates the ammount of HW resources needed for functional requirements. Businesses now are dynamic and fast paced, requirements arrive on a daily basis and can easily overwhelmed planned capacity due to new projects.</p>
+
+<p>Nowadays all is about data, and data is consumed everywhere. So this new requierements I mention about, quicly can turn into proyects (one or more sprints) so they need new data enviroments for developement or testing. This start to generate a very big gap between the amount of HW resources (storage mainly) assign to production in comparison with non production envs. 
+Most of this enviroments once created you cannot get them back, now are part of your landscape. Wasting X times of storage in non prod envs than in prod and may be its a high speed disk and really expensive. Typically, any productive environment has 3 o 4 environments for testing, development or pre production and some other consequent multi purpose environment for different projects.
+New methodologies and technologies push development to a really agile and dynamic path to create a new environment from scratch. On the other corner, databases are huge and creating a new environment it’s really a challenge process that can takes hours or days. After provisioning the database from a backup or tape we have to thought about masking, may be there are several scripts to mask customers data that take hours or days to finish (when it does correctly).
+At the end we have a database provisioned, from scratch in several days ( best scenario in several hours). Meanwhile, we have developers, testers and other data consumers waiting (productivity lost). This is the best scenario, but lets imagine we cannot allocate resources for this env and we have to wait for another HW purchase, this process can take months.</p>
+
+<p>I had this challenge on my way, thats when I have started thinking about data/database virtualization and how to generate some sort of virtual copy from a physical one (similar concept as servers virtualization). After a while, I arrived to Delphix.</p>
+
+<p>What is Delphix?</p>
+
+<p>Delphix Dynamic Data Platform is an integrated platform that virtualizes, protects and manages data from private facilities, in the cloud and in hybrid IT environments. Provides self-service access to data users through virtualized and personal data environments.</p>
+
+<p>The three pillars of Delphix Dynamic Data Platform are:</p>
+
+<p>• Application and Data Acceleration: Rapid provisioning of virtualized databases, recording every change for easier rebuilding at any point in time.</p>
+
+<p>• Privacy and data security: companies can avoid the unintentional disclosure of confidential data through its masking, access control and audits.</p>
+
+<p>• Cloud adoption: move data to the cloud in large quantities at once, replicating it for secure provisioning of cloud environments.</p>
+
+<p>What benefits I get with Delphix?</p>
+
+<ul>
+  <li>Up to 95% Time savings in making data environments available (create, restore, etc.).
+    <ul>
+      <li>Efficiency of operational teams.</li>
+      <li>Coordination between teams for refreshing environments is eliminated.</li>
+    </ul>
+  </li>
+  <li>Up to 90% Storage Savings (Non-Productive Environments).
+    <ul>
+      <li>Up to 20 virtual copies to reach the size of 1 physical copy.</li>
+    </ul>
+  </li>
+  <li>Up to 50% Reduction of times in the software life cycle.
+    <ul>
+      <li>Self Service data to manage them.</li>
+    </ul>
+  </li>
+  <li>Possibility of provisioning cloud environments securely with masked data.
+    <ul>
+      <li>Replication between on-premise and cloud of virtual databases masked on-premise.</li>
+    </ul>
+  </li>
+  <li>Compliance with current data security regulations.
+    <ul>
+      <li>Through the masking of the data, compliance with the current personal data protection laws is achieved. (GDPR / SOX / PCI / HIPAA)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>What are Delphix best use cases and value scenarios?</p>
+
+<ul>
+  <li>Development and Testing enviroments.
+    <ul>
+      <li>Shorten project/release cycles by 50%</li>
+      <li>Reduce non-production storage by 90%</li>
+      <li>Eliminate sensitive data risk</li>
+      <li>Test with current, high-quality production data</li>
+    </ul>
+  </li>
+  <li>Cloud &amp; Datacenter Migrations
+    <ul>
+      <li>Migrate 50% faster</li>
+      <li>Significantly reduce storage and bandwidth requirements</li>
+      <li>Eliminate data risk in non-production with masking</li>
+      <li>Non-disruptively extract data from production</li>
+    </ul>
+  </li>
+  <li>Governance, Security, and Compliance
+    <ul>
+      <li>Mask confidential data</li>
+      <li>Provide continuous compliance reporting</li>
+      <li>Govern and audit data changes</li>
+      <li>Manage data delivery, retention, purging from single point of control</li>
+    </ul>
+  </li>
+  <li>Analytics, Modeling, &amp; Reporting
+    <ul>
+      <li>Dramatically accelerate time to useful data</li>
+      <li>Offload reports, extracts from production</li>
+      <li>Eliminate batch windows, extract at any time</li>
+      <li>Deliver as many data copies as needed</li>
+    </ul>
+  </li>
+  <li>Data Protection / Recovery
+    <ul>
+      <li>Eliminate backup failures</li>
+      <li>Provide continuous data protection: improved RPO, RTP</li>
+      <li>Repair data in live environments</li>
+      <li>Ensure DR across data centers, clouds</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Some videos from youtube channel:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>5 minutes in the life of a Delphix DBA
+https://www.youtube.com/watch?v=ABxuNKerE4w
+
+Delphix Introduction
+https://www.youtube.com/watch?v=rtCZhUxEDxI
+
+Product Demonstration
+https://www.youtube.com/watch?v=2B5jcZeNZko&amp;t=3s
+
+Delphix Data Security and Masking
+https://www.youtube.com/watch?v=CrJMMhLLIMw
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Hope you Enjoy it.</p>
+
+<p>Data journey continues.</p>
+:ET

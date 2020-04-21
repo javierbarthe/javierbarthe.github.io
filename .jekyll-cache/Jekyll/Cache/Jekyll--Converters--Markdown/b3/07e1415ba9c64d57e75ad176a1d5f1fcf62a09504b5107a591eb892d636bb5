@@ -1,4 +1,4 @@
-I"À
+I"4
 <div id="tags" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
 
 
@@ -8,6 +8,10 @@
 
   <div>
     <a class="tag" href="/tags/data-archicture/">data archicture<span class="text-muted">1</span></a>
+  </div>
+
+  <div>
+    <a class="tag" href="/tags/data-platform/">data platform<span class="text-muted">1</span></a>
   </div>
 
 
